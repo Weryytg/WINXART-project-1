@@ -11,7 +11,7 @@ from config import TOKEN
 
 
 async def main():
-    # await create_session()
+    await create_session()
     bot = Bot(token=TOKEN) 
     dp = Dispatcher()
 
