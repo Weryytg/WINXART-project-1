@@ -2,7 +2,7 @@ import asyncio
 
 from aiogram import Bot, Dispatcher
 
-from app.handlers.start_handlers import start_router
+from app.handlers.registration.reg_handlers import start_router
 from app.database.session import create_session
 from config import TOKEN
 
